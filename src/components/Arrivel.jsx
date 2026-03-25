@@ -6,12 +6,12 @@ import img3 from '../assets/img/arrived3.png'
 const Arrivel = () => {
     return (
         <>
-            <div className="flex items-center flex-col  mt-20">
-                <div className="font-normal text-[54px] w-310 h-max px-15 text-center ">
+            <div className="flex items-center flex-col  md:mt-20 mt-10">
+                <div className="font-normal md:text-[54px] md:w-310 h-max md:px-15 text-center text-[20px] w-[400px]">
                     <p>CRAFTED WITH <span>PRECISION</span>, INSPIRED BY <span className='font-medium'>GOLDEN MORNINGS</span> — GOLDEN DOWN
                         REDEFINES <span>TIMELESS BEAUTY.</span></p>
                 </div>
-                <div className="flex gap-6 mt-14.75">
+                <div className="md:flex md:gap-6 md:mt-14.75">
                     <div className="h-182.5 w-112.5 flex flex-col gap-2">
                         <img src={img1} alt="" className='h-150 rounded' />
                         <div className="font-normal flex flex-col gap-2">
