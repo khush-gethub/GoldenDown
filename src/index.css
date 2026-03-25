@@ -1,6 +1,22 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "romie";
+  src:
+    url("./fonts/romie-regular.otf") format("otf");
+}
+
 html,body{
     font-family: archivo;
     background-color: #F8F6F0;
+}
+
+h5{
+    font-family: romie;
+}
+
+span{
+    font-family: romie;
+    font-weight: 500;
+    font-style: italic;
 }

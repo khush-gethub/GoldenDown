@@ -1,14 +1,14 @@
 import React from 'react'
-import img1 from '../assets/features1.png'
-import img2 from '../assets/features2.png'
-import img3 from '../assets/features3.png'
-import img4 from '../assets/features4.png'
+import img1 from '../assets/img/features1.png'
+import img2 from '../assets/img/features2.png'
+import img3 from '../assets/img/features3.png'
+import img4 from '../assets/img/features4.png'
 
 const Features = () => {
     return (
         <>
-            <div className="flex flex-col items-center my-30">
-                <h1 className='text-[90px] font-medium text-center flex flex-col leading-20  mb-10'>THE ALCHEMY <span>OF GOLDEN DOWN</span></h1>
+            <div className="flex flex-col items-center mt-25 mb-44.5">
+                <h1 className='text-[90px] font-medium text-center flex flex-col leading-20  mb-10'>THE ALCHEMY <p>OF <span>GOLDEN DOWN</span></p></h1>
 
                 <div className="flex gap-10">
                     <div className="h-122.75 w-83.75 flex flex-col gap-2">

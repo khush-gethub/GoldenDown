@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-        <div className="flex flex-col bg-[#312E29] text-white pt-20 gap-30 items-center">
-            <div className="flex justify-between mx-10 font-normal gap-50">
+        <div className="flex flex-col bg-[#312E29] text-white pt-15.25 gap-37.5 items-center">
+            <div className="flex justify-between mx-10 font-normal gap-78.75">
                 <h1 className='text-[54px]'>Lets Talk <br /> goldendown@gmail.com</h1>
 
                 <div className="flex flex-col gap-6">

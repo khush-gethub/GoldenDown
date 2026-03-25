@@ -1,5 +1,8 @@
 import React from 'react'
-import logo from '../assets/Logo.png'
+import logo from '../assets/img/Logo.png'
+import search from '../assets/svg/search.svg'
+import cart from '../assets/svg/cart.svg'
+import account from '../assets/svg/account.svg'
 
 export const Navbar = () => {
     return (
@@ -16,12 +19,14 @@ export const Navbar = () => {
                     <a href="#">JOURNAL</a>
                 </div>
 
-                <div className="bg-[#E8E2D5] px-5 py-1 rounded-full">
-                    <a href="#">.</a>
-                    <a href="#">.</a>
-                    <a href="#">.</a>
+                <div className="bg-[#E8E2D5] px-5 py-1 rounded-full flex gap-5">
+                    <img src={search} alt="" />
+                    <img src={cart} alt="" />
+                    <img src={account} alt="" />
                 </div>
             </nav>
         </>
     )
 }
+
+export default Navbar
