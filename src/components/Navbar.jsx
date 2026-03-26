@@ -33,8 +33,8 @@ export const Navbar = () => {
                 </div>
                 {/* for mobile */}
                 {open && (
-                    <div className="absolute top-15 left-70 w-max bg-white shadow-2xl">
-                        <div className="flex flex-col m-3 rounded-md ">
+                    <div className="absolute top-15 left-62 w-max bg-white shadow-2xl rounded-md">
+                        <div className="flex flex-col m-3">
                             <a href="#">SHOP</a>
                             <a href="#">COLLECTION</a>
                             <a href="#">ABOUT</a>
