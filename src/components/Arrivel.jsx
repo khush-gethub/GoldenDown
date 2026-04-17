@@ -20,7 +20,7 @@ const Arrivel = () => {
                             <p>₹499.00</p>
                         </div>
 
-                        <button className='border p-2.5 font-normal w-full'>SHOP NOW</button>
+                        <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
                     <div className="md:h-182.5 md:w-112.5 w-90 h-140 flex flex-col gap-2">
@@ -31,7 +31,7 @@ const Arrivel = () => {
                             <p>₹499.00</p>
                         </div>
 
-                        <button className='border p-2.5 font-normal w-full'>SHOP NOW</button>
+                        <button className='border p-2.5 font-normal w-full  hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
                     <div className="md:h-182.5 md:w-112.5 w-90 h-140 flex flex-col gap-2">
@@ -42,7 +42,7 @@ const Arrivel = () => {
                             <p>₹499.00</p>
                         </div>
 
-                        <button className='border p-2.5 font-normal w-full'>SHOP NOW</button>
+                        <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
                 </div>
 

@@ -19,7 +19,7 @@ const Features = () => {
                             <p>₹999.00</p>
                         </div>
 
-                        <button className='border p-2.5 font-normal w-full'>SHOP NOW</button>
+                        <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
                     <div className="md:h-122.75 md:w-83.75 h-120 w-80 flex flex-col gap-2 md:text-[16px] text-[14px] md:mt-0 mt-12">
@@ -30,7 +30,7 @@ const Features = () => {
                             <p>₹1499.00</p>
                         </div>
 
-                        <button className='border p-2.5 font-normal w-full'>SHOP NOW</button>
+                        <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
                     <div className="md:h-122.75 md:w-83.75 h-120 w-80 flex flex-col gap-2 md:text-[16px] text-[14px] md:mt-0 mt-12">
@@ -41,7 +41,7 @@ const Features = () => {
                             <p>₹599.00</p>
                         </div>
 
-                        <button className='border p-2.5 font-normal w-full'>SHOP NOW</button>
+                        <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
                     <div className="md:h-122.75 md:w-83.75 h-120 w-80 flex flex-col gap-2 md:text-[16px] text-[14px] md:mt-0 mt-12">
@@ -52,7 +52,7 @@ const Features = () => {
                             <p>₹1999.00</p>
                         </div>
 
-                        <button className='border p-2.5 font-normal w-full'>SHOP NOW</button>
+                        <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
                 </div>
             </div>

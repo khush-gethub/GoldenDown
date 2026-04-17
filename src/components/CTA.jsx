@@ -19,7 +19,7 @@ const CTA = () => {
                             <p>₹1499.00</p>
                         </div>
 
-                        <button className=' bg-black p-2.5 font-normal w-full '>SHOP NOW</button>
+                        <button className=' bg-black p-2.5 font-normal w-full hover:bg-white hover:text-black'>SHOP NOW</button>
                     </div>
 
                     <div className="md:h-182.5 md:w-112.5 w-90 h-140 flex flex-col gap-2 text-[14px] md:text-[16px]">
@@ -30,7 +30,7 @@ const CTA = () => {
                             <p>₹4099.00</p>
                         </div>
 
-                        <button className='bg-black p-2.5 font-normal w-full'>SHOP NOW</button>
+                        <button className='bg-black p-2.5 font-normal w-full hover:bg-white hover:text-black'>SHOP NOW</button>
                     </div>
 
                     <div className="md:h-182.5 md:w-112.5 w-90 h-140 flex flex-col gap-2 text-[14px] md:text-[16px]">
@@ -41,7 +41,7 @@ const CTA = () => {
                             <p>₹2599.00</p>
                         </div>
 
-                        <button className='bg-black p-2.5 font-normal w-full'>SHOP NOW</button>
+                        <button className='bg-black p-2.5 font-normal w-full hover:bg-white hover:text-black'>SHOP NOW</button>
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@ const CTA = () => {
 
                     <div className="absolute md:top-15 md:right-5 md:w-135 w-90 md:text-2xl text-[10px] font-medium">
                         <p className=' mt-2'><span>A Fragrance is More Than The Sum Of Its Notes—It's An Emotional Journey, A Trigger For Memory, A Catalyst For Connection. We Don't Simply Blend Ingredients; We Compose Experiences.</span></p>
-                        <button className='border border-white px-5 py-1 md:mt-4 mt-1'><span>Shop Now</span></button>
+                        <button className='border border-white px-5 py-1 md:mt-4 mt-1  hover:bg-white hover:text-black'><span>Shop Now</span></button>
                     </div>
                 </div>
             </div>
