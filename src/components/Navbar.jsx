@@ -8,32 +8,32 @@ export const Navbar = () => {
     const [open, setopen] = useState('');
     return (
         <>
-            <nav className='flex justify-between md:mx-10 font-[Archivo] m-5 items-center'>
+            <nav className='flex justify-between xl:mx-10 font-[Archivo] m-5 items-center'>
                 <div className="">
-                    <img src={logo} alt="" className='h-10 md:h-14' />
+                    <img src={logo} alt="" className='h-10 xl:h-14' />
                 </div>
                 {/* for Desktop  */}
-                <div className="hidden md:flex gap-10">
+                <div className="hidden xl:flex gap-10">
                     <a href="#">SHOP</a>
                     <a href="#">COLLECTION</a>
                     <a href="#">ABOUT</a>
                     <a href="#">JOURNAL</a>
                 </div>
                 {/* for Desktop  */}
-                <div className="bg-[#E8E2D5] md:px-5 py-1 rounded-full md:flex md:gap-5 flex gap-2 px-2">
-                    <img src={search} alt="" className='h-4 md:h-7'/>
-                    <img src={cart} alt="" className='h-4 md:h-7'/>
-                    <img src={account} alt="" className='h-4 md:h-7 md:font-bold'/>
+                <div className="bg-[#E8E2D5] xl:px-5 py-1 rounded-full xl:flex xl:gap-5 flex gap-2 px-2">
+                    <img src={search} alt="" className='h-4 xl:h-7'/>
+                    <img src={cart} alt="" className='h-4 xl:h-7'/>
+                    <img src={account} alt="" className='h-4 xl:h-7 xl:font-bold'/>
                 </div>
 
-                <div className="md:hidden">
+                <div className="xl:hidden">
                     <button onClick={() => { setopen(!open) }}>
                         ☰
                     </button>
                 </div>
                 {/* for mobile */}
                 {open && (
-                    <div className="absolute top-15 left-62 w-max bg-white shadow-2xl rounded-md">
+                    <div className="absolute top-15 left-62 w-max bg-white shadow-2xl rounded-xl">
                         <div className="flex flex-col m-3">
                             <a href="#">SHOP</a>
                             <a href="#">COLLECTION</a>

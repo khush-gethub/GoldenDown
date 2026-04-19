@@ -7,13 +7,13 @@ import img4 from '../assets/img/features4.png'
 const Features = () => {
     return (
         <>
-            <div className="flex flex-col items-center md:mt-25 mt-15 md:mb-44.5 mb-20">
-                <h1 className='md:text-[90px] text-[40px] font-medium text-center flex flex-col md:leading-20 leading-10 mb-10'>THE ALCHEMY <p>OF <span>GOLDEN DOWN</span></p></h1>
+            <div className="flex flex-col items-center xl:mt-25 mt-15 xl:mb-44.5 mb-20">
+                <h1 className='xl:text-[90px] text-[40px] font-medium text-center flex flex-col xl:leading-20 leading-10 mb-10'>THE ALCHEMY <p>OF <span>GOLDEN DOWN</span></p></h1>
 
-                <div className="md:flex gap-10">
-                    <div className="md:h-122.75 md:w-83.75 h-120 w-80 flex flex-col gap-2 md:text-[16px] text-[14px]">
+                <div className="xl:flex gap-10">
+                    <div className="xl:h-122.75 xl:w-83.75 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px]">
                         <img src={img1} alt="" className='h-100 w-80 rounded' />
-                        <div className="font-normal flex flex-col md:gap-2">
+                        <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PODUCT NAME</p>
                             <h2>ELISE NOIRE</h2>
                             <p>₹999.00</p>
@@ -22,9 +22,9 @@ const Features = () => {
                         <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
-                    <div className="md:h-122.75 md:w-83.75 h-120 w-80 flex flex-col gap-2 md:text-[16px] text-[14px] md:mt-0 mt-12">
+                    <div className="xl:h-122.75 xl:w-83.75 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] xl:mt-0 mt-12">
                         <img src={img2} alt="" className='h-100 w-80 rounded' />
-                        <div className="font-normal flex flex-col md:gap-2">
+                        <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PODUCT NAME</p>
                             <h2>SERICA</h2>
                             <p>₹1499.00</p>
@@ -33,9 +33,9 @@ const Features = () => {
                         <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
-                    <div className="md:h-122.75 md:w-83.75 h-120 w-80 flex flex-col gap-2 md:text-[16px] text-[14px] md:mt-0 mt-12">
+                    <div className="xl:h-122.75 xl:w-83.75 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] xl:mt-0 mt-12">
                         <img src={img3} alt="" className='h-100 w-80 rounded' />
-                        <div className="font-normal flex flex-col md:gap-2">
+                        <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PODUCT NAME</p>
                             <h2>CUIR OBSCUR</h2>
                             <p>₹599.00</p>
@@ -44,9 +44,9 @@ const Features = () => {
                         <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
-                    <div className="md:h-122.75 md:w-83.75 h-120 w-80 flex flex-col gap-2 md:text-[16px] text-[14px] md:mt-0 mt-12">
+                    <div className="xl:h-122.75 xl:w-83.75 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] xl:mt-0 mt-12">
                         <img src={img4} alt="" className='h-100 w-80 rounded' />
-                        <div className="font-normal flex flex-col md:gap-2">
+                        <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PODUCT NAME</p>
                             <h2>L'INCONNU</h2>
                             <p>₹1999.00</p>
