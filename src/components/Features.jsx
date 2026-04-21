@@ -7,11 +7,11 @@ import img4 from '../assets/img/features4.png'
 const Features = () => {
     return (
         <>
-            <div className="flex flex-col items-center xl:mt-25 mt-15 xl:mb-44.5 mb-20">
-                <h1 className='xl:text-[90px] text-[40px] font-medium text-center flex flex-col xl:leading-20 leading-10 mb-10'>THE ALCHEMY <p>OF <span>GOLDEN DOWN</span></p></h1>
+            <div className="flex flex-col items-center xl:mt-25 mt-15 xl:mb-30 mb-20">
+                <h1 className='xl:text-[90px] text-[40px] font-medium text-center flex flex-col xl:leading-20 leading-10 lg:mb-3'>THE ALCHEMY <p>OF <span>GOLDEN DOWN</span></p></h1>
 
-                <div className="xl:flex gap-10">
-                    <div className="xl:h-122.75 xl:w-83.75 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px]">
+                <div className="xl:flex lg:flex gap-10 xl:gap-5 lg:gap-3">
+                    <div className="xl:h-122.75 xl:w-83.75 lg:h-110 lg:w-60 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] lg:mt-10 xl:mt-10 mt-12">
                         <img src={img1} alt="" className='h-100 w-80 rounded' />
                         <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PODUCT NAME</p>
@@ -22,7 +22,7 @@ const Features = () => {
                         <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
-                    <div className="xl:h-122.75 xl:w-83.75 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] xl:mt-0 mt-12">
+                    <div className="xl:h-122.75 xl:w-83.75 lg:h-110 lg:w-60 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] lg:mt-10 xl:mt-10 mt-12">
                         <img src={img2} alt="" className='h-100 w-80 rounded' />
                         <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PODUCT NAME</p>
@@ -33,7 +33,7 @@ const Features = () => {
                         <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
-                    <div className="xl:h-122.75 xl:w-83.75 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] xl:mt-0 mt-12">
+                    <div className="xl:h-122.75 xl:w-83.75 lg:h-110 lg:w-60 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] lg:mt-10 xl:mt-10 mt-12">
                         <img src={img3} alt="" className='h-100 w-80 rounded' />
                         <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PODUCT NAME</p>
@@ -44,7 +44,7 @@ const Features = () => {
                         <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
-                    <div className="xl:h-122.75 xl:w-83.75 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] xl:mt-0 mt-12">
+                    <div className="xl:h-122.75 xl:w-83.75 lg:h-110 lg:w-60 h-120 w-80 flex flex-col gap-2 xl:text-[16px] text-[14px] lg:mt-10 xl:mt-10 mt-12">
                         <img src={img4} alt="" className='h-100 w-80 rounded' />
                         <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PODUCT NAME</p>

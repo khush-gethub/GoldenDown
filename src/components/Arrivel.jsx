@@ -11,8 +11,8 @@ const Arrivel = () => {
                     <p>CRAFTED WITH <span>PRECISION</span>, INSPIRED BY <span className='font-medium'>GOLDEN MORNINGS</span> — GOLDEN DOWN
                         REDEFINES <span>TIMELESS BEAUTY.</span></p>
                 </div>
-                <div className="xl:flex xl:gap-6 xl:mt-14.75 mt-7">
-                    <div className="xl:h-182.5 xl:w-112.5 h-140 w-90 flex flex-col gap-2">
+                <div className="flex flex-col lg:flex-row xl:flex-row xl:gap-6 md:gap-3 xl:mt-14.75 mt-7">
+                    <div className="xl:h-182.5 xl:w-112.5 lg:h-110 lg:w-70 h-140 w-90 flex flex-col gap-2">
                         <img src={img1} alt="" className='xl:h-150 h-100 rounded' />
                         <div className="font-normal flex flex-col xl:gap-2 ">
                             <p className='text-[8px]'>PERFUME</p>
@@ -23,7 +23,7 @@ const Arrivel = () => {
                         <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
-                    <div className="xl:h-182.5 xl:w-112.5 w-90 h-140 flex flex-col gap-2">
+                    <div className="xl:h-182.5 xl:w-112.5 lg:h-110 lg:w-70 w-90 h-140 flex flex-col gap-2">
                         <img src={img2} alt="" className='xl:h-150 h-100 rounded' />
                         <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PERFUME</p>
@@ -34,7 +34,7 @@ const Arrivel = () => {
                         <button className='border p-2.5 font-normal w-full hover:bg-black hover:text-white'>SHOP NOW</button>
                     </div>
 
-                    <div className="xl:h-182.5 xl:w-112.5 w-90 h-140 flex flex-col gap-2">
+                    <div className="xl:h-182.5 xl:w-112.5 lg:h-110 lg:w-70 w-90 h-140 flex flex-col gap-2">
                         <img src={img3} alt="" className='xl:h-150 h-100 rounded' />
                         <div className="font-normal flex flex-col xl:gap-2">
                             <p className='text-[8px]'>PERFUME</p>
